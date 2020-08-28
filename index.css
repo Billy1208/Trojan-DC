@@ -119,10 +119,12 @@ header .header-arl {
   padding: 7px;
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-right: 8px;
+  padding-left: 8px;
   position: absolute;
   right: 30px;
   border: transparent;
-  border-radius: 50%;
+  border-radius: 100%;
   list-style: none;
 
 }
@@ -139,7 +141,7 @@ header .header-arl {
   width: 100%;
   margin-top: 70px;
   font-family: Amiri;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 80pt;
   color: #111;
   text-align: center;
@@ -150,7 +152,7 @@ header .header-arl {
   margin-top: 10px;
   width: 100%;
   font-family: Amiri;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 16pt;
   color: #111;
   text-align: center;
@@ -169,7 +171,7 @@ header .header-arl {
   width: 100%;
   margin-top: 0px;
   font-family: Amiri;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 46pt;
   color: #111;
   text-align: center;
