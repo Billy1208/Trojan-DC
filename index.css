@@ -169,23 +169,23 @@ header .header-arl {
 
 .sec-two h1 {
   width: 100%;
-  margin-top: 70px;
+  padding-top: 100px;
   font-family: Amiri;
   font-weight: normal;
   font-size: 32pt;
   color: #111;
   text-align: center;
-  line-height: 120px;
+  line-height: 100px;
 }
 
 .sec-two p {
   width: 100%;
   font-family: Amiri;
   font-weight: normal;
-  font-size: 16pt;
+  font-size: 18pt;
   color: #111;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .sec-two-point {
@@ -199,13 +199,14 @@ header .header-arl {
 
 .sec-two-point h1 {
   width: 100%;
-  margin-top: 70px;
+  padding-top: 100px;
+  margin-top: 0px;
   font-family: Amiri;
   font-weight: normal;
   font-size: 32pt;
   color: #111;
   text-align: center;
-  line-height:120px;
+  line-height: 100px;
 }
 
 .sec-two-point p {
@@ -231,13 +232,13 @@ header .header-arl {
 .sec-two-point-point h1 {
   width: 100%;
   position: absolute;
-  margin-top: 380px;
+  margin-top: 350px;
   font-family: Amiri;
   font-weight: normal;
   font-size: 32pt;
   color: #111;
   text-align: center;
-  line-height: 120px;
+  line-height: 150px;
 }
 
 .sec-two-point-point p {
@@ -248,14 +249,15 @@ header .header-arl {
   color: #111;
   text-align: center;
   line-height: 50px;
+  margin-bottom: calc12%;
 }
 
 .swiper-slide1 {
   position: absolute;
   width: calc(100% - 20%);
-  height: calc(100vh - 320px);
+  height: calc(100vh - 450px);
   text-align: center;
-  margin-top: 500px;
+  margin-top: 480px;
   margin-left: 10%;
   font-family: Amiri;
   line-height: 30px;
