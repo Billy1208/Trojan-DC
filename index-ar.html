@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home-AR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <main>
+      <section class="sec-one">
+          <header>
+            <a href="index.html" class="header-logo"><img src="img/trojan logo 2.png" alt="Logo"></a>
+            <a href="index.html" class="header-arl">EN</a>
+          </header>
+          <div class="trojan">
+            <h1>Trojan</h1>
+          </div>
+          <div class="slogan">
+            <h2 >Be your own Rival & Start with us</h2>
+          </div>
+      </section>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <section class="sec-two">
+                <h1>About Us</h1>
+                <p>We are a developing company that <br>satisfies all the desired needs in <br>Graphic & software world <br>to all start-ups, major companies <br> and business projects, etc... <br>
+                  capable of converting just <br> an idea to
+                  a professional, <br>functionable & modern project</p>
+                </section>
+              </div>
+              <div class="swiper-slide">
+                <section class="sec-two-point">
+                    <h1>What we provide</h1>
+                    <p>• Full visual pranding <br>• Full digital developing <br>(Desktop, Mobile &Web)<br>• Full digital marketing campaign <br>• Best brice & highest quality <br>• on Service 24 / 7</p>
+                </section>
+              </div>
+            <div class="swiper-slide">
+              <section class="sec-two-point-point">
+                <h1>Our services</h1>
+                        <div class="swiper-slide1">
+                          <p>We give a full pranding work from logos, slogans to posters & advertising material <br>Full PC's management systems developing & maintenance <br> Web & Mobile applications serves your needs at the most modern apperance <br> Full digital markiting Sochial Media or web advertising</p>
+                        </div>
+                      </div>
+                </section>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <section class="sec-three">
+          <div class="form">
+            <h1>Contact with us</h1>
+            <input type="text" name="" value="" placeholder="  Name">
+            <input type="text" name="" value="" placeholder="  E-mail">
+            <textarea name="message" id="message" rows="8" cols="40" placeholder="Message"></textarea>
+            <a href="#">
+              <div class="send-button">
+                <span class="sim"><img src="img/arrow (2).svg" alt="send"></span>
+              </div>
+            </a>
+          </div>
+          <div class="ico-div">
+            <a href="#" id="phone"><img class="ico" src="img/call.svg" alt="phone"></a>
+
+          </div>
+           <div class="ico-div">
+             <a href="#" id="mail"><img class="ico" src="img/mail (2).svg" alt="mail" ></a>
+
+          </div>
+          <div class="ico-div">
+            <a href="#" id="insta"><img class="ico" src="img/logo.svg" alt="insta"></a>
+
+          </div>
+          <div class="ico-div">
+            <a href="#"id="face" ><img class="ico" src="img/facebook (1).svg" alt="face" ></a>
+
+          </div>
+          <div class="ico-div">
+            <a href="#"  id="link"><img class="ico" src="img/linkedin.svg" alt="link"></a>
+
+          </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../package/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      autoplay: {
+        delay: 7000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  </body>
+</html>
