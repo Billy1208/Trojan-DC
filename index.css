@@ -171,7 +171,7 @@ header .header-arl {
   width: 100%;
   margin-top: 0px;
   font-family: Amiri;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 46pt;
   color: #111;
   text-align: center;
@@ -201,7 +201,7 @@ header .header-arl {
   width: 100%;
   margin-top: 0px;
   font-family: Amiri;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 32pt;
   color: #111;
   text-align: center;
@@ -233,7 +233,7 @@ header .header-arl {
   position: absolute;
   margin-top: 350px;
   font-family: Amiri;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 32pt;
   color: #111;
   text-align: center;
@@ -299,7 +299,7 @@ header .header-arl {
   width: calc(100% - 20%);
   margin-left: calc(10%);
   margin-bottom: 20px;
-  border: 2px solid #eae2d5;
+  border: 1px solid #111;
   border-radius: 20px;
   font-family: Amiri;
   font-weight: normal;
@@ -311,7 +311,7 @@ header .header-arl {
   margin-left: calc(10%);
   height: 120px;
   margin-bottom: 20px;
-  border: 2px solid #eae2d5;
+  border: 1px solid #111;
   border-radius: 20px;
   text-align: left;
   font-family: Amiri;
