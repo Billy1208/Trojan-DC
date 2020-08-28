@@ -110,7 +110,7 @@ header .header-logo {
 }
 
 header .header-arl {
-  color: #869392;
+  color: #111;
   text-align: center;
   font-family: sans-serif;
   font-weight: lighter;
@@ -231,7 +231,7 @@ header .header-arl {
 .sec-two-point-point h1 {
   width: 100%;
   position: absolute;
-  margin-top: 320px;
+  margin-top: 350px;
   font-family: Amiri;
   font-weight: bold;
   font-size: 32pt;
@@ -255,7 +255,7 @@ header .header-arl {
   width: calc(100% - 20%);
   height: calc(100vh - 350px);
   text-align: center;
-  margin-top: 450px;
+  margin-top: 480px;
   margin-left: 10%;
   font-family: Amiri;
   line-height: 30px;
@@ -313,7 +313,7 @@ header .header-arl {
   margin-bottom: 20px;
   border: 2px solid #eae2d5;
   border-radius: 20px;
-  text-align: center;
+  text-align: left;
   font-family: Amiri;
   font-weight: normal;
 }
@@ -324,8 +324,8 @@ header .header-arl {
   padding-left: 10px;
   padding-right: 7px;
   padding-bottom: 3px;
-  margin-left: 130px;
-  background-color: #eae2d5;
+  margin-left: 42%;
+  background-color: #C9C9C9;
   text-align: center;
   border: 1px solid ;
   border-color: transparent;
@@ -452,3 +452,5 @@ position: relative;
     display: none;
   }
 }
+.swiper-pagination-bullet-active {
+  background-color: #111;
