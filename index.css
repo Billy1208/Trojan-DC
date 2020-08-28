@@ -152,7 +152,7 @@ header .header-arl {
   margin-top: 10px;
   width: 100%;
   font-family: Amiri;
-  font-weight: 100;
+  font-weight: normal;
   font-size: 16pt;
   color: #111;
   text-align: center;
@@ -299,7 +299,7 @@ header .header-arl {
   width: calc(100% - 20%);
   margin-left: calc(10%);
   margin-bottom: 20px;
-  border: 1px solid #111;
+  border: 1px solid #707070;
   border-radius: 20px;
   font-family: Amiri;
   font-weight: normal;
@@ -311,7 +311,7 @@ header .header-arl {
   margin-left: calc(10%);
   height: 120px;
   margin-bottom: 20px;
-  border: 1px solid #111;
+  border: 1px solid #707070;
   border-radius: 20px;
   text-align: left;
   font-family: Amiri;
