@@ -224,6 +224,7 @@ header .header-arl {
   color: #111;
   text-align: center;
   line-height: 100px;
+
 }
 
 .sec-two p {
@@ -519,7 +520,7 @@ position: relative;
     /*padding: 20px;*/
   }
   .header-logo img {
-    width: 50px;
+    width: 35px;
   }
   header .header-arl {
     text-decoration: none;
@@ -527,13 +528,13 @@ position: relative;
     text-align: center;
     font-family: sans-serif;
     font-weight: lighter;
-    font-size: 13pt;
+    font-size: 11pt;
     background-color: #fff;
     padding: 7px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right: 18px;
-    padding-left: 18px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-right: 12px;
+    padding-left: 12px;
     position: fixed;
     border: transparent;
     border-radius: 100%;
@@ -544,117 +545,181 @@ position: relative;
   }
   .sec-one {
     background-image: url('img/trojan illustration 1@2x.png');
-    height: 100vh;
+    height: 100%;
+
   }
   .sec-two {
     background-image: url('img/trojan illustration 3@2x.png');
-    height: 100vh;
+    height: 100%;
   }
   .sec-two-point {
     background-image: url('img/trojan illustration 5@2x.png');
-    height: 100vh;
+    height: 100%;
   }
   .sec-two-point-point {
     background-image: url('img/trojan illustration 2@2x.png');
-    height: 100vh;
+    height: 100%;
   }
   .sec-three {
     background-image: url('img/trojan illustration 4@2x.png');
-    height: 100vh;
+    height: 100%;
   }
   .sec-one h1 {
     width: 140%;
-    margin-top: 300px;
+    margin-top: 200px;
     font-family: Amiri;
     font-weight: 300;
-    font-size: 150pt;
+    font-size: 110pt;
     color: #111;
     text-align: center;
-    line-height: 150px;
+    line-height: 140px;
   }
 
   .slogan {
-    margin-top: 80px;
+    margin-top: 70px;
     width: 140%;
     font-family: Amiri;
     font-weight: normal;
-    font-size: 32pt;
+    font-size: 28pt;
     color: #111;
     text-align: center;
+  }
+
+  @keyframes fadeInAnimation1 {
+      0% {
+        margin-left: -50%;
+        width: 0%;
+        opacity: 0;
+      }
+      100% {
+        margin-left: 0%;
+        width: 50%;
+        opacity: 1;
+      }
   }
 
   .sec-two h1 {
     width: 50%;
-    padding-top: 100px;
+    padding-top: 60px;
     font-family: Amiri;
     font-weight: normal;
-    font-size: 72pt;
+    font-size: 60pt;
     color: #111;
     text-align: center;
     line-height: 200px;
+    animation: fadeInAnimation1 ease 3s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
   }
 
   .sec-two p {
     width: 50%;
     font-family: Amiri;
     font-weight:100;
-    font-size: 28pt;
+    font-size: 22pt;
     color: #111;
     text-align: center;
-    line-height: 60px;
+    line-height: 50px;
+    animation: fadeInAnimation1 ease 4s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeInAnimation2 {
+      0% {
+        margin-top: -50%;
+        width: 0%;
+        opacity: 0;
+      }
+      100% {
+        margin-top: 0%;
+        width: 50%;
+        opacity: 1;
+      }
   }
   .sec-two-point h1 {
     width: 50%;
-    padding-top: 100px;
+    padding-top: 80px;
     margin-top: 0px;
     font-family: Amiri;
     font-weight: normal;
-    font-size: 72pt;
+    font-size: 60pt;
     color: #111;
     text-align: center;
-    line-height: 200px;
+    line-height: 150px;
+    animation: fadeInAnimation2 ease 3s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
 
   .sec-two-point p {
     width: 50%;
     font-family: Amiri;
     font-weight: normal;
-    font-size: 28pt;
+    font-size: 22pt;
     color: #111;
     text-align: center;
-    line-height: 90px;
+    line-height: 70px;
+    animation: fadeInAnimation2 ease 4s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
   }
+
+  @keyframes fadeInAnimation3 {
+      0% {
+        margin-left: -150%;
+        width: 0%;
+        opacity: 0;
+      }
+      100% {
+        margin-left: 0%;
+        width: 40%;
+        opacity: 1;
+      }
+  }
+
   .sec-two-point-point h1 {
     width: 60%;
     position: absolute;
-    margin-top: 230px;
+    margin-top: 160px;
     font-family: Amiri;
     font-weight: normal;
-    font-size: 72pt;
+    font-size: 60pt;
     color: #111;
     text-align: center;
     line-height: 100px;
+    animation: fadeInAnimation3 ease 3s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
 
   .sec-two-point-point p {
     position: fixed;
-    margin-top: -70px;
+    margin-top: -180px;
     margin-left: 0%;
     width: 40%;
     font-family: Amiri;
     font-weight: normal;
-    font-size: 28pt;
+    font-size: 20pt;
     color: #111;
     text-align: center;
-    line-height: 60px;
+    line-height: 40px;
+    animation: fadeInAnimation3 ease 4s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
   }
 
   .form {
-    position: absolute;
+    position: relative;
     margin-left: 50%;
     margin-top: 5%;
     width: calc(100% - 70%);
-    height: 60%;
+    height: calc(100% - 40%);
     background-color: #fff;
     border: 10px;
     border-radius: 10%;
@@ -664,18 +729,18 @@ position: relative;
     width: 100%;
     font-family: Amiri;
     font-weight: normal;
-    font-size: 32pt;
+    font-size: 26pt;
     color: #111;
     text-align: center;
-    line-height: 130px;
+    line-height: 100px;
   }
   .form input {
     font-size: 12pt;
     background-color: #F2F2F2;
-    height: 40px;
+    height: 30px;
     width: calc(100% - 20%);
     margin-left: calc(10%);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border: 1px solid #707070;
     border-radius: 20px;
     font-family: Amiri;
@@ -714,7 +779,7 @@ position: relative;
 
   .sec-three #phone{
     position: absolute;
-    margin-top: 80vh;
+    margin-top: 6vh;
     padding: 10px;
     padding-right: 15px;
     background-color: #F2F2F2;
@@ -727,7 +792,7 @@ position: relative;
 
   .sec-three #mail{
     position: absolute;
-    margin-top: 80vh;
+    margin-top: 6vh;
     padding: 10px;
     padding-right: 15px;
     background-color: #F2F2F2;
@@ -740,7 +805,7 @@ position: relative;
 
   .sec-three #insta{
     position: absolute;
-    margin-top: 80vh;
+    margin-top: 6vh;
     padding: 10px;
     padding-right: 15px;
     padding-bottom: 7px;
@@ -754,7 +819,7 @@ position: relative;
 
   .sec-three #face{
     position: absolute;
-    margin-top: 80vh;
+    margin-top: 6vh;
     padding: 10px;
     padding-right: 15px;
     padding-bottom: 8px;
@@ -768,7 +833,7 @@ position: relative;
 
   .sec-three #link{
     position: absolute;
-    margin-top: 80vh;
+    margin-top: 6vh;
     padding: 10px;
     padding-right: 15px;
     background-color: #F2F2F2;
