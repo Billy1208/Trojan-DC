@@ -20,7 +20,7 @@
         <div class="section sectionone">
           <section class="sec-one" id="sec-one" style="width: 100%; height: 100vh;">
             <div class="intro">
-                <img id="splash" src="img/up 4-trojan logo motion 1.gif"( alt="motion">
+                <img loop=Infinite id="splash" src="img/up 4-trojan logo motion 1.gif"( alt="motion">
             </div>
             <header>
               <a href="index.html" class="header-logo"><img src="img/trojan logo 2@3x.png" alt="Logo"></a>
@@ -39,23 +39,23 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <section class="sec-two" id="sec-two" style="width: 100%; height: 100vh;">
-                <h1 class="abo">About Us</h1>
-                <p>We are a developing company that <br>satisfies all the desired needs in <br>Graphic & software world <br>to all start-ups, major companies <br> and business projects, etc... <br>
+                <h1 class="fade-in">About Us</h1>
+                <p class="fade-in">We are a developing company that <br>satisfies all the desired needs in <br>Graphic & software world <br>to all start-ups, major companies <br> and business projects, etc... <br>
                   capable of converting just <br> an idea to
                   a professional, <br>functionable & modern project</p>
                 </section>
               </div>
               <div class="swiper-slide">
                 <section class="sec-two-point" id="sec-two-point" style="width: 100%; height: 96vh;">
-                    <h1>What we provide</h1>
-                    <p>• Full visual pranding <br>• Full digital developing <br>(Desktop, Mobile &Web)<br>• Full digital marketing campaign <br>• Best brice & highest quality <br>• on Service 24 / 7</p>
+                    <h1 class="fade-in">What we provide</h1>
+                    <p class="fade-in">• Full visual pranding <br>• Full digital developing <br>(Desktop, Mobile &Web)<br>• Full digital marketing campaign <br>• Best brice & highest quality <br>• on Service 24 / 7</p>
                 </section>
               </div>
             <div class="swiper-slide">
               <section class="sec-two-point-point" id="sec-two-point-point" style="width: 100%; height: 96vh;">
-                <h1>Our services</h1>
+                <h1 class="fade-in">Our services</h1>
                         <div class="swiper-slide1">
-                          <p>We give a full pranding work from logos, slogans to posters & advertising material <br>Full PC's management systems developing & maintenance <br> Web & Mobile applications serves your needs at the most modern apperance <br> Full digital markiting Sochial Media or web advertising</p>
+                          <p class="fade-in">We give a full pranding work from logos, slogans to posters & advertising material <br>Full PC's management systems developing & maintenance <br> Web & Mobile applications serves your needs at the most modern apperance <br> Full digital markiting Sochial Media or web advertising</p>
                         </div>
                       </div>
                 </section>
@@ -110,57 +110,7 @@
     <script type="text/javascript" src="fullPage.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-      $('#fullpage').fullpage({
-        //options here
-        autoScrolling:true,
-        scrollHorizontally: true,
-      });
-
-      //methods
-      $.fn.fullpage.setAllowScrolling(true);
-      });
-    </script>
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-      spaceBetween: 30,
-      centeredSlides: true,
-      loop: false,
-      autoplay: {
-        delay: 15000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
-  <script>
-
-      var w = window.innerWidth;
-      var h = window.innerHeight;
-      document.getElementById("sec-one").style.height = h + "px";
-      document.getElementById("sec-two").style.height = h + "px";
-      document.getElementById("sec-two-point").style.height = h + "px";
-      document.getElementById("sec-two-point-point").style.height = h + "px";
-      document.getElementById("sec-two").style.width = w + "px";
-      document.getElementById("sec-two-point").style.width = w + "px";
-      document.getElementById("sec-two-point-point").style.width = w + "px";
-      document.getElementById("sec-three").style.height = h + "px";
-
-  </script>
-  <script src="animate.js"></script>
-  <script src="scroll-out.js"></script>
-  <script type="text/javascript">
-    scrollOut({
-      targets: 'h1, p'
-    })
-  </script>
+    <script src="animate.js"></script>
+    <script src="scroll-out.js"></script>
   </body>
 </html>
